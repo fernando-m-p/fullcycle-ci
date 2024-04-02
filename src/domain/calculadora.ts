@@ -10,6 +10,10 @@ export default class Calculadora {
         this._resultado = x - y;
     }
 
+    multiplicacao(x:number, y:number){
+        this._resultado = x * y;
+    }
+
 
     getResultado(){
         return this._resultado;
