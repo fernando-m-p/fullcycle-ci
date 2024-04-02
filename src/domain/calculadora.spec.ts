@@ -7,4 +7,11 @@ describe("calculadora unit test", ()=>{
         expect(calculadora.getResultado()).toBe(6);
     })
 
+    it("Teste subtracao", ()=>{
+        let calculadora = new Calculadora();
+        calculadora.soma(5,1);
+        expect(calculadora.getResultado()).toBe(5);
+    })
+
 })
+

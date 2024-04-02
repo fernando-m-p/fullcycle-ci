@@ -6,6 +6,9 @@ export default class Calculadora {
     soma(x:number, y:number){
         this._resultado = x + y;
     }
+    subtracao(x:number, y:number){
+        this._resultado = x - y;
+    }
 
 
     getResultado(){
