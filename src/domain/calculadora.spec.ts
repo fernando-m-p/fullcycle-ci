@@ -11,6 +11,7 @@ describe("calculadora unit test", ()=>{
         let calculadora = new Calculadora();
         calculadora.subtracao(5,1);
         expect(calculadora.getResultado()).toBe(4);
+
     })
 
 })
