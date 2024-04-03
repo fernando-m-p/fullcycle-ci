@@ -13,6 +13,12 @@ describe("calculadora unit test", ()=>{
         expect(calculadora.getResultado()).toBe(4);
 
     })
+    it("Teste multiplicacao", ()=>{
+        let calculadora = new Calculadora();
+        calculadora.multiplicacao(5,4);
+        expect(calculadora.getResultado()).toBe(20);
+
+    })
 
 })
 
