@@ -2,7 +2,7 @@ import express from "express"
 import Calculo from "./domain/calculadora"
 
 const app = express();
-
+app.disable("x-powered-by");
 
 app.get("/api/soma",(req,res)=>{
     let calculadora = new Calculo();

@@ -1,11 +1,8 @@
 name: Node.js CI
 
 on:
-   push:
-    branches:
-      - ci-main
-    pull_request:
-      types: [opened, synchronize, reopened]
+  pull_request:
+    branches: [ "ci-main" ]
 
 jobs:
   check-aplication:
