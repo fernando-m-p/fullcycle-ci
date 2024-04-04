@@ -5,6 +5,7 @@ const app = express();
 app.disable("x-powered-by");
 
 app.get("/api/soma",(req,res)=>{
+    
     let calculadora = new Calculo();
     console.log(req.params);
     console.log(req.query);
@@ -12,6 +13,7 @@ app.get("/api/soma",(req,res)=>{
     let y = Number.parseInt(req.query.y?.toString()!);
     calculadora.soma(x,y);
     return res.status(200).json({resultado:calculadora.getResultado()});
+
 })
 
 app.listen(3000, () => {
