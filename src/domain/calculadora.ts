@@ -16,7 +16,15 @@ export default class Calculadora {
 
     
     divisao(x:number, y:number){
-        this._resultado = x * y;
+        this._resultado = x / y;
+    }
+
+    restoDiv(x:number, y:number){
+        this._resultado = x % y;
+    }
+    
+    exponeciacao(x:number, y:number){
+        this._resultado = x ** y;
     }
 
 
