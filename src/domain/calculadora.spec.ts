@@ -43,6 +43,8 @@ describe("calculadora unit test", ()=>{
         expect(calculadora.getResultado()).toBe(1);
         calculadora.restoDiv3(11,2);
         expect(calculadora.getResultado()).toBe(1);
+        calculadora.restoDiv3(12,2);
+        expect(calculadora.getResultado()).toBe(0);
 
     })
 
