@@ -5,7 +5,7 @@ services:
       context: .
     container_name: app
     volumes: 
-      - ./node:/usr/src/app
+      - .:/usr/src/app
     tty: true
     ports: 
       - "8080:3000"
