@@ -5,4 +5,3 @@ node/coverage/*
 .scannerwork/
 src/**/*.js
 src/*.js
-*.config.js
