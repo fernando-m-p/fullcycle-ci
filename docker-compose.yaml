@@ -4,8 +4,6 @@ services:
     build: 
       context: .
     container_name: app
-    volumes: 
-      - .:/usr/src/app
     tty: true
     ports: 
       - "8080:3000"
