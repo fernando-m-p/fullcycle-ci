@@ -1,4 +1,3 @@
-# fullcycle-02-docker
-Repositório dos código do Curso FullCycle 3.0
+# FullCycle - Integração contínua
+Repositório dos código do Curso FullCycle 3.0, do módulo Integração Contínua
 
-Cada desafio ou código está listada nas branches.
