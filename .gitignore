@@ -3,3 +3,5 @@ coverage
 node/coverage/*
 .env
 .scannerwork/
+src/**/*.js
+src/*.js
